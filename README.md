@@ -1,4 +1,4 @@
-## Hi there 👋
+## official website for artist and poet selena vonichor
 
 <!--
 **selenavonichor/selenavonichor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
