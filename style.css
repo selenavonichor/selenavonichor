@@ -22,26 +22,16 @@ body {
 }
 
 #container {
-    justify-content: space-evenly;
-    align-items: center;
     text-align: center;
     margin: 0;
 }
 
 #centered-div {
-    width: 80%;
-    max-width: 500px;
+    width: 90%
+    max-width: 350px;
     color: white;
-    font-size: 48px;
-    padding: 0 10% 0 10%;;
+    margin: 5% 10% 5% 10%;;
 
-}
-
-#message {
-    font-size: 24px;
-    background-image: url("assets/blood.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 button {
@@ -49,7 +39,7 @@ button {
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border: none;
-    font-size: 32px;
+    font-size: 7vw;
     background-image: url("assets/cobble.gif");
 }
 
