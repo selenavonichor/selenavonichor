@@ -19,6 +19,12 @@ body {
     padding: 5vw 0 5vw 0;
 }
 
+#message{
+    font-size: 2vw;
+    color: red;
+    padding: 5vw 0 5vw 0;
+}
+
 #container {
     text-align: center;
     margin: 0;
