@@ -1,16 +1,16 @@
-body {
-    background-image: url("assets/bg.jpg");
-    background-color: rgba(0, 0, 0, 0.8);
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    background-size: cover;
-    font-family: main_font;
-    letter-spacing: 5px;
-}
-
 @font-face {
     font-family: main_font;
     src: url(fonts/Gothic\ War.otf);
+}
+
+body {
+    background-image: url("assets/bg.jpg");
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: repeat-y;
+    background-blend-mode: darken;
+    background-size: fill;
+    letter-spacing: 5px;
+    font-family: main_font;
 }
 
 #sel {
@@ -19,34 +19,44 @@ body {
     padding: 5vw 0 5vw 0;
 }
 
-#message{
-    font-size: 2vw;
+#message {
+    font-size: xx-large;
+    letter-spacing: normal;
     color: red;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
     padding: 5vw 0 5vw 0;
 }
 
 #container {
     text-align: center;
-    margin: 0;
     height: 100vh;
 }
 
 #centered-div {
-    width: 90%
-    max-width: 350px;
+    max-width: 600px;
     color: white;
-    margin: 5% 10% 5% 10%;;
-
+    margin: auto;
+    padding: 0 10% 0 10%;
 }
 
 button {
-    font-family: main_font;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border: none;
     font-size: 7vw;
-margin: 2% 0 2% 0;
-    background-image: url("assets/cobble.gif");
+    margin: 2% 2% 2% 2%;
+    background-size: fill;
+    font-family: main_font;
+    border-color: red;
+    background-color: rgba(255, 175, 175, 0.2);
+    border: 1px;
+
+}
+
+img {
+    width: 80%;
+    text-align: right;
 }
 
 a {
