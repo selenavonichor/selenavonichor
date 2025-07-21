@@ -1,6 +1,12 @@
 @font-face {
     font-family: main_font;
-    src: url(fonts/Gothic\ War.otf);
+    src: url(fonts/RevolverBlackletter-Regular.otf);
+}
+
+@font-face {
+    font-family: text_font;
+    src: url(fonts/Old\ Celtiberians.otf);
+    letter-spacing: 2px;
 }
 
 body {
@@ -24,7 +30,7 @@ body {
     letter-spacing: normal;
     color: red;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: text_font;
     padding: 5vw 0 5vw 0;
 }
 
@@ -47,7 +53,7 @@ button {
     font-size: 7vw;
     margin: 2% 2% 2% 2%;
     background-size: fill;
-    font-family: main_font;
+    font-family: text_font;
     border-color: red;
     background-color: rgba(255, 175, 175, 0.2);
     border: 1px;
