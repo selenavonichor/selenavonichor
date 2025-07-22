@@ -27,7 +27,7 @@ body {
 }
 
 #message {
-    font-size: xx-large;
+    font-size: 5vw;
     letter-spacing: normal;
     color: red;
     text-align: left;
@@ -62,8 +62,9 @@ button {
 }
 
 img {
-    width: 80%;
-    text-align: right;
+    width: 80vw;
+    max-width: 450px;
+    text-align: center;
 }
 
 a {
