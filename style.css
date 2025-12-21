@@ -54,7 +54,7 @@ li {
 
 body {
     background-image: url("assets/themist_tl0.jpg");
-    background-color: rgba(50, 0, 0, 0.98);
+    background-color: rgba(50, 0, 0, 0.9);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: darken;
