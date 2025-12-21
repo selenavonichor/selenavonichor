@@ -37,7 +37,7 @@ li img {
     height: auto;
 }
 
-li p{
+li p {
     position: absolute;
     bottom: 0;
 }
@@ -53,11 +53,12 @@ li {
 
 
 body {
-    background-image: url("assets/bg.jpg");
-    background-color: rgba(0, 0, 0, 0.8);
-    background-repeat: repeat-y;
+    background-image: url("assets/themist_tl0.jpg");
+    background-color: rgba(50, 0, 0, 0.98);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-blend-mode: darken;
-    background-size: fill;
+    background-size: cover;
     letter-spacing: 5px;
     font-family: main_font;
 }
