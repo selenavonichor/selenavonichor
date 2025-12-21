@@ -10,6 +10,48 @@
     letter-spacing: 2px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    width: auto;
+    max-height: 80vh;
+    display: flex;
+    gap: 2vw;
+}
+
+li {
+    list-style-type: none;
+    background-color: transparent;
+    border: none;
+    max-height: 60vh;
+    flex: 0 0 100%;
+    text-align: bottom;
+}
+
+li img {
+    width: auto;
+    max-width: 50vw;
+    max-height: 50vh;
+    height: auto;
+}
+
+li p{
+    position: absolute;
+    bottom: 0;
+}
+
+ul {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+li {
+    scroll-snap-align: center;
+}
+
+
 body {
     background-image: url("assets/bg.jpg");
     background-color: rgba(0, 0, 0, 0.8);
@@ -18,18 +60,6 @@ body {
     background-size: fill;
     letter-spacing: 5px;
     font-family: main_font;
-}
-
-div.scroll-container {
-  background-color: transparent;
-  overflow: auto;
-  white-space: nowrap;
-  white-space: -webkit-nowrap;
-  padding: 10px;
-}
-div.scroll-container img {
-  padding: 10px;
-  width: 100%;
 }
 
 #sel {
@@ -56,7 +86,6 @@ div.scroll-container img {
     max-width: 600px;
     color: white;
     margin: auto;
-    padding: 0 10% 0 10%;
 }
 
 .sticky {
@@ -81,8 +110,8 @@ button {
 }
 
 img {
-    width: 80vw;
-    max-width: 450px;
+    width: 450px;
+    max-width: 80vw;
     text-align: center;
 }
 
