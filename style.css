@@ -54,9 +54,10 @@ li {
 
 body {
     background-image: url("assets/themist_tl0.jpg");
-    background-color: rgba(50, 0, 0, 0.9);
+    background-color: rgba(75, 0, 0, 0.9);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-attachment: -webkit-fixed;
     background-blend-mode: darken;
     background-size: cover;
     letter-spacing: 5px;
