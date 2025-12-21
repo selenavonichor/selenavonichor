@@ -51,17 +51,26 @@ li {
     scroll-snap-align: center;
 }
 
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/themist_tl0.jpg");
+    background-color: rgba(75, 0, 0, 0.9);
+    background-blend-mode: darken;
+    z-index: -1;
+}
 
 body {
-    background-image: url("assets/bg.jpg");
-    background-color: rgba(75, 0, 0, 0.9);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: darken;
-    background-size: cover;
     letter-spacing: 5px;
     font-family: main_font;
 }
+
+
+
 
 #sel {
     font-size: 20vw;
