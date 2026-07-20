@@ -88,7 +88,7 @@ body::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url("assets/themist_tl0.jpg");
+    background-image: url("assets/themistgallery/themist_tl0.jpg");
     background-color: rgba(50, 0, 0, 0.9);
     background-blend-mode: darken;
     z-index: -1;
