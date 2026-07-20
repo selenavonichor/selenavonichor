@@ -8,92 +8,328 @@
         <link rel="icon" href="assets/themist.jpeg">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body style="background-image: url('assets/themist.jpeg');">
+    <body>
         <div id="container">
             <div id="sel">selena vonichor</div>
-
-            <div id="message">
-                <div style="text-align: center;">
-                    <h1>the mist
+            <div id="centered-div">
+                <div class="audio_player" style>
+                    <h1 style="text-align: center;">
+                        the mist
+                    </h1>
+                    <div class="centered-div">
+                        <img src="assets/themist.jpeg" style="width: 50%;"><br>
                     </div>
-                </div>
-                <div id="centered-div">
-                    <div class="audio_player">
-                        <div id="centered-div">
-                            <img src="assets/themist.jpeg">
-                        </div>
-                        <button id="previous">previous</button>
-                        <button id="play">play</button>
-                        <button id="pause">pause</button>
-                        <button id="next">next</button>
-                    </div>
-
-                    <h1>gallery</h1>
-                    <ul>
-                        <li>
-                            <img src="assets/gallery/20.jpg" loading="lazy"><br>
-                            shot by siloh cairns
-                        </li>
-                    </ul>
                     <br>
-                    <div id="message">
-                        <p
-                            style="font-family: 'Times New Roman', Times, serif;">
-                            possession<br><br><br>
+                    <div id="audio_player"></div>
+                    <!-- <button class="controls" id="previous">{{</button>
+                    <button class="controls" id="play">}</button>
+                    <button class="controls" id="pause">||</button>
+                    <button class="controls" id="next">}}</button><br><br>
 
-                            rip my eyes right from my skull<br>
-                            i carve my name into the wall<br>
-                            got so faded i lost my face again in the mud<br>
-                            murmurs in languages i share with my demon<br>
-                            a dialect of horrors they’re flora in my
-                            feelings<br>
-                            decorate the walls with my blood and my healing<br>
-                            might seem to be failing cuz i cant stop k*lling<br>
-                            <br>
-                            i suffocate<br>
-                            in the middle of the street<br>
-                            i suffocate<br>
-                            they all<br>
-                            just fucking watch<br>
-                            as im convulsing from the pain<br>
-                            in my final breaths<br>
-                            <br>
-                            take<br>
-                            all you do is take<br>
-                            my time, my body, my autonomy<br>
-                            live<br>
-                            i dont wanna live<br>
-                            if im only ever seen as an atrocity<br>
-                            <br>
-                            rip my eyes right from my skull<br>
-                            i carve my name into the wall<br>
-                            got so faded i lost my face again in the mud<br>
-                            murmurs in languages i share with my demon<br>
-                            a dialect of horrors they’re flora in my
-                            feelings<br>
-                            decorate the walls with my blood and my healing<br>
-                            might seem to be failing cuz i cant stop..<br>
-                            <br>
-                            leave my body where i lie<br>
-                            ugly and bloody, god knows i tried<br>
-                            i tried<br>
-                            <br>
-                            i wanna watch them all run away<br>
-                            i wanna watch them all run and pray<br>
-                            i wanna watch them all run away<br>
-                            from the monster they created<br>
-                            im a god to them<br>
-                            <br>
-                            beg for my forgiveness<br>
-                            sins they commit against<br>
-                            their goddess<br>
-                            <br>
-                        </p>
-                    </div>
+                    <button class="track"
+                        id="possession">possession</button><br>
+                    <button class="track" id="the_mist">the
+                        mist</button><br>
+                    <button class="track" id="weeping_rose">weeping
+                        rose</button><br>
+                    <button class="track" id="msdr">my slip dress
+                        revenge</button><br> -->
+                </div>
+                <br>
+                <div class="lyrics">
+                    <p
+                        style="font-family: 'Times New Roman', Times, serif;">
+                        POSSESSION<br><br>
+
+                        rip my eyes right from my skull<br>
+                        i carve my name into the wall<br>
+                        got so faded i lost my face again in the mud<br>
+                        murmurs in languages i share with my demon<br>
+                        a dialect of horrors they’re flora in my
+                        feelings<br>
+                        decorate the walls with my blood and my healing<br>
+                        might seem to be failing cuz i cant stop k*lling<br>
+                        <br>
+                        i suffocate<br>
+                        in the middle of the street<br>
+                        i suffocate<br>
+                        they all<br>
+                        just fucking watch<br>
+                        as im convulsing from the pain<br>
+                        in my final breaths<br>
+                        <br>
+                        take<br>
+                        all you do is take<br>
+                        my time, my body, my autonomy<br>
+                        live<br>
+                        i dont wanna live<br>
+                        if im only ever seen as an atrocity<br>
+                        <br>
+                        <img
+                            style="float: left; width: 25vw;"
+                            src="assets/gallery/20.jpg"
+                            loading="lazy">
+                        rip my eyes right from my skull<br>
+                        i carve my name into the wall<br>
+                        got so faded i lost my face again in the mud<br>
+                        murmurs in languages i share with my demon<br>
+                        a dialect of horrors they’re flora in my
+                        feelings<br>
+                        decorate the walls with my blood and my healing<br>
+                        might seem to be failing cuz i cant stop..<br>
+                        <br>
+                        <img
+                            style="float: right; width: 25vw;"
+                            src="assets/gallery/17.jpg" loading="lazy">
+                        leave my body where i lie<br>
+                        ugly and bloody, god knows i tried<br>
+                        i tried<br>
+                        <br>
+                        i wanna watch them all run away<br>
+                        i wanna watch them all run and pray<br>
+                        i wanna watch them all run away<br>
+                        from the monster they created<br>
+                        im a god to them<br>
+                        <br>
+                        beg for my forgiveness<br>
+                        sins they commit against<br>
+                        their goddess<br>
+                        <br>
+                    </p>
+                    <p
+                        style="font-family: 'Times New Roman', Times, serif;">
+                        THE MIST<br><br>
+
+                        wash away all the memories, the pain<br>
+                        hold me through the worst of it<br>
+                        <br>
+                        though my arms are cold<br>
+                        and my eyes have turned<br>
+                        the love you left intuits the mist<br>
+                        <br>
+                        <img
+                            style="float: left; width: 25vw;"
+                            src="assets/gallery/1.jpg" loading="lazy">
+                        sharp screams that cut deep like a knife<br>
+                        stab sweet she laughs with no control, oh<br>
+                        fight back, like i had a chance<br>
+                        fatal levels of sanity raining down every word i<br>
+                        scratch through the mirror, think i found myself<br>
+                        blood soaked hands claw their way inside my head<br>
+                        death unbind chains with a promise and
+                        conviction<br>
+                        steady is the body with a vengeance, my
+                        affliction<br>
+
+                        horrible lie ripping the seams of my existence<br>
+                        oh their terrible eyes, they pierce the fabric<br>
+                        tearing jagged<br>
+                        and my ghost is dying in the hands of darker
+                        fiends<br>
+                        still they’re bitter and cold shattered hope,<br>
+                        nothing remains<br>
+                        <br>
+                        spiders spiral down in hordes, their crawling
+                        legs<br>
+                        my tongue i pray<br>
+                        forgive me mother, i no longer love the corpse i<br>
+                        animate<br>
+                        im nothing more than what the world allowed for
+                        me<br>
+                        to be<br>
+                        wont you take my hand in my last moments, i dont<br>
+                        wanna feel alone<br>
+                        <br>
+                        still i fear there's no way home<br>
+                        with such incisions into my delicate heart<br>
+                        <br>
+                        <img
+                            style="float: right; width: 25vw;"
+                            src="assets/gallery/cemetery.jpeg"
+                            loading="lazy">
+                        my path grows darker everyday<br>
+                        i want the light, they keep from me<br>
+                        running down back ally ways<br>
+                        my body never belonged to me<br>
+                        <br>
+                        another night of vile threats<br>
+                        a million cuts, a murderous sum<br>
+                        to feed the dark and bleed enough<br>
+                        to summon her, my behemoth<br>
+                        <br>
+                        my right to be reborn i sign my name upon the door
+                        i<br>
+                        wear no<br>
+                        armor on my chest save for the necklace from my<br>
+                        mother<br>
+                        with teeth against the flesh again i butcher and<br>
+                        dismember,<br>
+                        with no remorse i emerge enraged, nightmare,<br>
+                        revenge, in lace<br>
+                        <br>
+                        drag what’s left of you down to her through the<br>
+                        earth, it keeps her fed<br>
+                        kept you wide awake it makes her happier i see
+                        no<br>
+                        end<br>
+                        satisfy my monster with the hearts of the sick
+                        and<br>
+                        the twisted<br>
+                        enter abyss, your soul pays for your sins, i
+                        hope<br>
+                        <br><br>
+                    </p>
+                    <p
+                        style="font-family: 'Times New Roman', Times, serif;">
+                        WEEPING ROSE<br><br>
+
+                        i hear voices in my head<br>
+                        scratches on the wood<br>
+                        saying that im not dead<br>
+                        not yet, not well understood<br>
+                        the laughing starts to get to me<br>
+                        pull back the knife let me breathe<br>
+                        <br>
+
+                        cuz i dont wanna see that part of me<br>
+                        let the face ive locked away<br>
+                        get out of<br>
+                        <br>
+                        me, now<br>
+                        god im fucking weak, yea<br>
+                        say it to my face<br>
+                        cuz you love to play the villain<br>
+                        with my hands around your throat, oh<br>
+                        wont you tell me once more<br>
+                        how you love to watch me break<br>
+                        hold me down and make me<br>
+                        <br>
+                        bleed out<br>
+                        watch me bleed out<br>
+                        on my knees now<br>
+                        pray to your love<br>
+                        <br>
+                        i know im not your first victim<br>
+                        <br>
+                        <img
+                            style="float: right; width: 25vw;"
+                            src="assets/gallery/15.jpg"
+                            loading="lazy">
+                        <br>
+                        you have my heart tied up so tight<br>
+                        i can feel your blade run up my thighs<br>
+                        i could try to scream but your holds so deep<br>
+                        ive never known such violent peace<br>
+                        <br>
+                        cuz i dont wanna see that part of me<br>
+                        let the face ive locked away<br>
+                        get out of<br>
+                        <br>
+                        me, now<br>
+                        god im fucking weak yea<br>
+                        say it to my face<br>
+                        cuz you love to play the villain<br>
+                        with my hands around your throat, oh<br>
+                        wont you tell me once more<br>
+                        how you love to watch me break<br>
+                        hold me down and make me<br>
+                        <br>
+                        bleed out<br>
+                        watch me bleed out<br>
+                        on my knees now<br>
+                        pray to your love<br>
+                        <br>
+                        move me<br>
+                        like a dramatic movie<br>
+                        tell me where you keep it<br>
+                        all your darkest secrets<br>
+                        no ones here to judge you<br>
+                        if you confess to me now<br>
+                        i can make you bloom forever<br>
+                        heart stop you’re just a<br>
+                        <br>
+                        weeping rose<br>
+                        your weeping rose<br>
+                        on your knees now<br>
+                        pray to your love<br>
+                        <br>
+                        is this healing? is this healing?<br>
+                        <br><br>
+                    </p>
+                    <p
+                        style="font-family: 'Times New Roman', Times, serif;">
+                        MY SLIP DRESS REVENGE<br><br>
+
+                        start to hate my face and rip it out of frame<br>
+                        then i catch their eyes just as they start to
+                        laugh<br>
+                        i manufactured insecurities to be more like you<br>
+                        i thought making myself small was worth the toll<br>
+                        <br>
+                        i can tell u right now it didn't make me feel
+                        like<br>
+                        her<br>
+                        cuz whoever said powerlessness makes a girl<br>
+                        has never met a<br>
+                        <img
+                            style="float: right; width: 25vw;"
+                            src="assets/gallery/10.jpg"
+                            loading="lazy">
+                        <br>
+                        god in real life<br>
+                        set them all on fire<br>
+                        god in real life<br>
+                        drown them all in acid rain<br>
+                        <br>
+                        we’ll haunt you<br>
+                        we’ll bury you<br>
+                        take what’s ours<br>
+                        like we promised to<br>
+                        <br>
+                        <img
+                            style="float: left; width: 25vw;"
+                            src="assets/gallery/4.jpg"
+                            loading="lazy">
+                        pocket those hands next time you pass behind<br>
+                        cuz my blades not shy and neither is this bottle
+                        of<br>
+                        wine<br>
+                        last words never sound too clear with a knife
+                        right<br>
+                        down your throat<br>
+                        cuz a cat call is the quickest way to lose that<br>
+                        tongue of yours<br>
+                        <br>
+                        <img
+                            style="float: right; width: 25vw;"
+                            src="assets/gallery/3.jpg"
+                            loading="lazy">
+                        my slip dress revenge is the sweetest drink to
+                        steal<br>
+                        baby you cant make a sound with your neck under
+                        my<br>
+                        heel<br>
+                        <br>
+                        god in real life<br>
+                        set them all on fire<br>
+                        god in real life<br>
+                        drown them all in acid rain<br>
+                        <br>
+                        <img
+                            style="float: left; width: 25vw;"
+                            src="assets/gallery/2.jpg"
+                            loading="lazy">
+                        we’ll haunt you<br>
+                        we’ll bury you<br>
+                        take what’s ours<br>
+                        like we promised to<br>
+                        <br><br>
+                    </p>
                 </div>
             </div>
-        </body>
-        <script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="audioplayer.js"></script>
-    </html>
+        </div>
+    </body>
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="audioplayer.js"></script>
+</html>
