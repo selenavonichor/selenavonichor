@@ -10,6 +10,14 @@
     letter-spacing: 2px;
 }
 
+.audio_player {
+    border-style: solid;
+}
+
+.audio_player button {
+    font-size: 2vw;
+}
+
 * {
     box-sizing: border-box;
 }
